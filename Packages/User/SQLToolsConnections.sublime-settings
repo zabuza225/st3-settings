@@ -1,0 +1,42 @@
+{
+  "connections": {
+    "Connection 1 AutoZomm": {
+      "type"    : "mysql",
+      "host"    : "localhost",
+      // "host"    : "/Applications/MAMP/tmp/mysql/mysql.sock",
+      "port"    : 8889,
+      "username": "root",
+      "password": "root",
+      "database": "autozoom_database_preview",
+      "encoding": "utf-8"
+    },
+    "Connection 1 Slim": {
+      "type"    : "mysql",
+      "host"    : "/Applications/MAMP/tmp/mysql/mysql.sock",
+      "port"    : 8889,
+      "username": "root",
+      "password": "root",
+      "database": "db_slim",
+      "encoding": "utf-8"
+    },
+    "Connection 2": {
+      "type"    : "pgsql",
+      "host"    : "/Applications/MAMP/tmp/mysql/mysql.sock",
+      "port"    :  5432,
+      "username": "anotheruser",
+      "database": "dbname",
+      "encoding": "utf-8"
+    },
+    "Connection 3": {
+      "type"    : "oracle",
+      "host"    : "/Applications/MAMP/tmp/mysql/mysql.sock",
+      "port"    :  1522,
+      "username": "anotheruser",
+      "password": "password",
+      "database": "dbname",
+      "service" : "servicename",
+      "encoding": "utf-8"
+    }
+  },
+  "default": "Connection 1"
+}

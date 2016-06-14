@@ -1,0 +1,65 @@
+{
+	"attribute_avoided_scopes":
+	[
+		"string.quoted.double.html",
+		"source.css"
+	],
+	"attribute_defined_scopes":
+	[
+		"text.html meta.tag punctuation.definition.tag",
+		"entity.other.attribute-name.html",
+		"attibutes.tag.jade",
+		"meta.section.attributes.haml",
+		"text.html meta.tag.inline",
+		"text.html.basic meta.tag.block.any.html"
+	],
+	"component_defined_scopes":
+	[
+		"text.html.basic - source.php.embedded.block.html",
+		"text.html.basic invalid.illegal.bad-angle-bracket.html",
+		"source.jade",
+		"text.haml"
+	],
+	"disable_all_completions": false,
+	"disable_default_directive_completions": false,
+	"disable_default_element_completions": false,
+	"disable_default_js_completions": false,
+	"disable_indexed_directive_completions": false,
+	"disable_indexed_isolate_completions": false,
+	"enable_AngularUI_directives": true,
+	"enable_data_prefix": false,
+	"ensure_all_scopes_are_matched": false,
+	"exclude_dirs":
+	[
+		"node_modules/",
+		"bower_components",
+		"vendor"
+	],
+	"exclude_file_suffixes":
+	[
+		"angular.js",
+		"min.js"
+	],
+	"filter_scope": "text.html string.quoted",
+	"js_prefixes":
+	[
+		","
+	],
+	"js_scope": "source.js - string.quoted - comment - meta.brace.square",
+	"match_definitions":
+	[
+		"constant",
+		"controller",
+		"directive",
+		"factory",
+		"filter",
+		"module",
+		"service",
+		"value"
+	],
+	"match_expression": "((^[ \\\\t]*\\.{0}|^[ \\\\t]*{0}|angular\\.{0}|\\)\\.{0}|app\\.{0})[ ]*\\([ ]*[\"\\'])([\\w\\.\\$]*)([\"\\'])",
+	"match_expression_group": 3,
+	"non_word_chars": "[\\./\\\\(\\)\"':,;<>~!@#\\$%\\^&\\*\\|\\+=\\[\\]{}`~\\? ]",
+	"show_current_scope": true,
+	"show_file_preview": true
+}
